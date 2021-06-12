@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 310px;
+    border: 13px dashed #00FF00;
+    margin-left: 5%;
+    background-image: url('images/bkg.jpg');
+	background-size: 100%;
+}
+h1{margin-left: 10%;}
+h3 {margin-left: 5%;}
+a:hover{color: #FFF;}
+
+.sendBtn {
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.instructions:hover {color: #00FF00;}
+.collapse:hover{color: #00FF00;}
+
+.instro {visibility: hidden;}
+.collapse{visibility: hidden;}
